@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+body {
+    background-color: #141852 ;
+}
+
+header {
+    background-color: #626482;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    max-height: 800px;
+    text-align: center;
+}
+
+header > img {
+    display: inline;
+    background-color: #626482;
+}
+
+h1 {
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline;
+    color: #141852;
+    font-size: 6em;
+    padding: 20px;
+    margin: auto auto 15px auto;
+}
+
+nav {
+    background-color: #2E3047;
+    min-width: 200px;
+    max-width: 900px;
+    margin: 20px auto auto auto;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+nav > a {
+    color: #626482;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover{
+    color: #474dac;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    min-width: 320px;
+    max-width: 1000px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+}
+
+article {
+    text-align: center;
+}
+
+article > h2 {
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+article > p {
+    font-family: 'Archivo', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    text-indent: 60px;
+}
+
+article#video {
+    background-color: #2E3047;
+    border-radius: 12px;
+    margin: 15px;
+}
+    
+article#video > iframe {
+    background-color: #2E3047;
+    width: 800px;
+    height: 560px;
+    margin: 15px;
+}
+
+main > img {
+    display: inline;
+    text-align: center;
+}
+
+footer {
+    background-color: #626482;
+    text-align: center;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c0e30;
+    padding: 2px;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer > p {
+    margin: 0px;
+    display: inline;
+}
+
+p#lado {
+    display: inline;
+    margin: auto auto auto 270px;
+}
+
+span {
+    color: #282b61;
+}
