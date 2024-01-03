@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -23,8 +24,18 @@
             border-bottom: 0px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(51, 51, 51);
+        }
+        
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         th, tf {
-            background-color: gray; 
+            background-color: rgb(51, 51, 51); 
             color: white;
         }
 
