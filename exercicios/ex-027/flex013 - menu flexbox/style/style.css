@@ -15,21 +15,42 @@ body {
 }
 
 header {
-    background-color: lightgray;
+    background-color: rgb(158, 155, 155);
     color: white;
     padding: 10px;
-}
-
-nav {
-    
-}
-
-header > h1 {
-    border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > nav {
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+header > nav > a {
+    background-color: rgba(121, 119, 119, 0.801);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: rgba(121, 119, 119, 0.801);
+    transition: background-color .5s;
+}
+
+header > h1 {
+    border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 main {
